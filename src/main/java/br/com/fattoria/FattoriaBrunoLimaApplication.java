@@ -3,7 +3,7 @@ package br.com.fattoria;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"br.com.fattoria"})
 public class FattoriaBrunoLimaApplication {
 
 	public static void main(String[] args) {
