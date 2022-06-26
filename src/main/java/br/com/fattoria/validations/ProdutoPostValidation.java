@@ -22,9 +22,7 @@ public class ProdutoPostValidation {
 		if (request.getQuantidade() == null || request.getQuantidade()< 0) {
 			result.add(new ValidationModel("Quantidade", "Informe valor válido para quantidade."));
 		}
-		if (request.getDataCadastro() == null ) {
-			result.add(new ValidationModel("DataCadastro", "Informe a data do cadastro"));
-		}
+		
 		return result;
 	}
 }
